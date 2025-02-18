@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Build outputs
+admin/dist/
+frontend/dist/
+backend/build/
+
+# Environment variables
+admin/.env
+frontend/.env
+backend/.env
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore local editor configs
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore deployment files
+.vercel/
